@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizio_4</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/Settimana_1/Giorno_4/Esercizio_4/stile.css" />
+  </head>
+  <body background="/Settimana_1/Giorno_4/Esercizio_4/assets/imges/sfondo.png">
+    <header>
+      <img
+        src="/Settimana_1/Giorno_4/Esercizio_4/assets/imges/logo.svg"
+        alt="Logo"
+      />
+
+      <p>EPICODE - IL BLOG DEI DEVELOPER</p>
+      <div class="menu">
+        <ul>
+          <li>HOME</li>
+          <li>ARTICOLI</li>
+          <li>JOB</li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+    <main>
+      <h1>Come creare un template per i post</h1>
+      <p class="sottotesto">
+        di Mario Rossi<i
+          class="fa-solid fa-clock"
+        ></i>
+        pubblicato il 25-10-2020
+      </p>
+      <p>
+        La prima cosa da fare é suddividere in blocchi logici la pagina,
+        identificando le <b>parti comuni</b> da applicare a tutte le pagine
+        
+      </p>
+      <article>
+        <p>Le varie aree saranno quindi suddivise in:</p>
+        <ul>
+            <li>Contenuti di intestazione del tag <mark>&lt;header&gt;</li></mark>
+            <li>Contenuti centrali variabili del tag <mark>&lt;main&gt;</mark>(corpo principale)</li>
+            <li>Contenuti di fine pagina comuni, da inserire nel tag <mark>&lt;footer&gt;</mark></li>
+        </ul>
+        Formattazione del codice<br>
+        Il testo dell'articolo dovra essere formattato per identificare tutte le parti da <b>selezionare con i CSS.</b> Perció i passi saranno:
+        <ol>
+            <li>Progettare su carta il markup finale, assegnando ad ogni specifico testo il tag appropriato</li>
+            <li>Scrivere l'HTML dai tag esterni a quelli interni e dall'allto verso il basso</li>
+            <li>Applicare gli stili CSS</li>
+    
+        </ol>
+        L'applicazione di stili CSS e creciuta negli anni fino araggiungere la diffusione pressoché totale.
+      </article>
+      <section>
+        <table>
+            <thead>
+                <th>Diffusionne dei CSS</th>
+                </thead>
+              <tbody>
+                <th>Anno</th>
+                <th>% di utilizzo</th>
+                <th>Supporto browsers</th>
+                <tr>
+                  <td>2000</td>
+                  <td>20%</td>
+                  <td>17%</td>
+                  
+                </tr>
+                <tr>
+                  <td>2002</td>
+                  <td>35%</td>
+                  <td>22%</td>
+                 
+                </tr>
+                <tr>
+                  <td>2004</td>
+                  <td>45%</td>
+                  <td>42%</td>
+                  
+                </tr>
+                <tr>
+                  <td>2008</td>
+                  <td>80%</td>
+                  <td>51%</td>
+                  
+                </tr>
+                <tr>
+                  <td>2012</td>
+                  <td>100%</td>
+                  <td>76%</td>
+                  
+                </tr>
+              </tbody>
+        </table>
+        <p>Un Test di validazione potrá essere fatto tramite il 
+          <a href="#">tool online</a> 
+          dedicato allo scopo. Una volta ottimizzato il tutto, 
+          avremo raggiunto il nostro obiettivo ed essere stati dei 
+          veri developers come loro: </p>
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/dvOvHXruEDM"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+    </section>
+    <div class="novita">
+      <h2 class="titoloCentrato">NOVITÁ</h2>
+      <div class="email">
+      <form action="/Settimana_1/Giorno_2/Esercizio_2/messaggio.html">
+          <input type="email" id="email_form" name="email" placeholder="Inserisci Email" required>
+          <input type="submit" id="invia_form" name="Iscriviti" value="Iscriviti!">
+      </form>
+    </div>
+  </div>
+    </main>
+    <aside>
+      <h2>ARTICOLI CORRELATI</h2>
+      
+      <div class="correlati"><p><a href="#"><i class="fa-solid fa-tag"></i>Validare il codice HTML</a><br>Categoria: develop</p></div>
+      <div class="correlati"><p><a href="#"><i class="fa-solid fa-tag"></i>Correggere la sintassi</a><br>Categoria: develop</p></div>
+      <div class="correlati"><p><a href="#"><i class="fa-solid fa-tag"></i>Meno Kb nella pagina</a><br>Categoria: ottimizzazione </p></div>
+      
+    
+    </aside></div>
+    <footer><p>Blog Epicode @2021 <br> Testata online di Mario Rossi, registrata con prot. n.213/2018 - Via Luigi Einaudi 2 - Milano. P.IVA 00112233. <a href="#">info@epicode.school</a></p></footer>
+  </body>
+</html>

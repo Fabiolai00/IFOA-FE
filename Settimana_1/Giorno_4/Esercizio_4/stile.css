@@ -1,0 +1,94 @@
+/* IMPOSTAZIONI GENERALI */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* HEADER */
+header {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(0, 139, 139, 1) 100%
+  );
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 5px 5px 8px rgb(98, 97, 97);
+  margin: 5px;
+  text-align: center;
+  font-size: large;
+  color: white;
+}
+
+.menu {
+  padding-left: 45%;
+  text-align: start;
+  font-size: large;
+  text-decoration: none;
+  color: white;
+}
+
+::marker,
+ul {
+  list-style-type:symbols(★);
+}
+
+/* MAIN */
+.container {
+  background-color: white;
+  box-sizing: border-box;
+  margin-left: 4px;
+  margin-right: 4px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 8px rgb(98, 97, 97);
+  font-size: large;
+}
+
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+.sottotesto {
+  color: grey;
+}
+
+ b {
+    
+    background-color: grey;
+}
+/* TABELLE */
+table {
+  border-bottom: solid 1px blue;
+  border-radius: 2px;
+ 
+}
+
+
+/* FORM */
+.novita {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: 4px;
+  margin-right: 4px;
+  background-color: antiquewhite;
+  text-align: left;
+  border: solid 1px rgb(201, 153, 65);
+  border-radius: 2px;
+}
+
+.titoloCentrato {
+  margin-left: 45%;
+}
+
+/* ELEMENTI NELL' ASIDE */
+
+
+
+.correlati {
+  background-color: antiquewhite;
+  padding: 20px;
+  margin: 4px;
+  border: solid 1px rgb(201, 153, 65);
+  border-radius: 2px;
+}
+/* FOOTER */
