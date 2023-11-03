@@ -100,7 +100,7 @@ function chck3and7(num) {
         return "É un multiplo di tre";
     }else if (num % 7 === 0 ) {
         return "É un multiplo di sette";
-    }else if { 
+    }else { 
         return false;
     }
 }
